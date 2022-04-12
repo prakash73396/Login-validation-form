@@ -170,6 +170,33 @@ z-index: 1;
    animation-iteration-count: infinite;
    color:white;
 }
+.link a {
+    display: inline-block;
+    font-size: 12px;
+    padding: 0 5px;
+    text-decoration: none;
+    color: gray;
+
+}
+.link a:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+.link{
+    margin:40px;
+    margin-bottom: 10px;
+    border-top: 1px solid gray;
+    text-align: center;
+
+}
+.social{
+    font-size: 30px;
+    margin-left: 30%;
+    padding: 0 10px;
+    cursor: pointer;
+    
+}
+
 @keyframes color {
     0%{background-color:lightgreen}
     25%{background-color: #835d99}
@@ -284,6 +311,7 @@ text-decoration: underline;
     visibility: hidden;
 }
 .font_email i{
+
     position: absolute;
    left: 105%;
     top:31%;

@@ -38,6 +38,7 @@ function checkinput_account(){
     const confirm_passwordValue=confirm_password.value.trim();
 
     if(nameAccValue==''){
+        
         setError(nameAcc,"Please give your name")
     }
     else{
